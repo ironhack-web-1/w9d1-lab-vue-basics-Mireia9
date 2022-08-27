@@ -1,8 +1,10 @@
 <template>
+<div>
 <NavBar></NavBar>
 <p>{{2 + 2}}</p>
 <FormContact></FormContact>
 <FooterMain></FooterMain>
+</div>
 </template>
 
 <script>
