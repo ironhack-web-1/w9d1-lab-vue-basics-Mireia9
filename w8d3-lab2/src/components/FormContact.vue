@@ -39,18 +39,18 @@ export default {
   name: "FormContact",
   data() {
     return {
-      name: "",
-      mail: "",
-      message: "",
-      checkedInfo: "",
-      size: "",
-      color: "",
+      name: null,
+      mail: null,
+      message: null,
+      checkedInfo: null,
+      size: null,
+      color: null,
     };
   },
 };
 </script>
 
-<style>
+<style scoped>
 .formulario{
     width:300px;
 	padding:16px;
